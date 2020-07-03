@@ -1,0 +1,100 @@
+{% extends 'mysite/base.html'%}
+{%block content%}
+
+<div class="container" style="margin-top: 100px;">
+    <div class="row">
+        <div class="col-sm">
+        
+        </div>
+        <div class="col-sm">
+            <div class="card text-white bg-dark mb-3 text-center" style="max-width: 24rem;">
+                <div class="card-body">
+                  <p>{{rquote.quote}}</p>-{{rquote.authorname}}
+                </div>
+              </div>
+        </div>
+        <div class="col-sm">
+        
+        </div>
+    </div>
+</div>
+{%endblock%}
+
+
+
+
+
+
+ 
+/* Full height */
+height: 100%; 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat:repeat-y;
+background-size:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<label class="sr-only" for="inlineFormInputName2">First name</label>
+<input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="First name" name="fname">
+
+<label class="sr-only" for="inlineFormInputName2">Last name</label>
+<input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Last name" name="lname">
+
+
+
+
+
+
+
+
+
+
+
+??views index
+
+firstname=request.POST['fname']
+        lastname=request.POST['lname']
+
+
+
+
+
+
+
+
+
+        /* The image used */
+        background-image: linear-gradient(to bottom,#F15C2B 0%,#000000 100%);
+        background-position: center center;
+
+        /* Background image doesn't tile */
+        background-repeat: no-repeat;
+        
+        /* Background image is fixed in the viewport so that it doesn't move when 
+           the content's height is greater than the image's height */
+        background-attachment: fixed;
+        
+        /* This is what makes the background image rescale based
+           on the container's size */
+        background-size: cover;
+        
+        /* Set a background color that will be displayed
+           while the background image is loading */
+        background-color: #F15C2B;}
